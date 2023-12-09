@@ -22,6 +22,44 @@ Console.WriteLine("tugas untuk nambahin github");
 Console.WriteLine("ok ada perubahan");
 //tes perubahan
 
+//penambahan koding
+
+Console.WriteLine();
+string nama = "Hendry Priyatno";
+Console.WriteLine(nama);
+Console.WriteLine("-----------------------------------");
+char baris = '-';
+Console.WriteLine(baris);
+Console.Write("No |");
+Console.Write("Nama          |");
+Console.WriteLine("Umur          |");
+Console.WriteLine("-----------------------------------");
+Console.WriteLine(baris);
+Console.Write("1  |");
+Console.Write("Udin          |");
+Console.WriteLine("19            |");
+int Joko = 25;
+Console.Write("2  |");
+Console.Write("Joko          |");
+Console.Write(Joko);
+Console.WriteLine("            |");
+double Adi = 17.5;
+Console.Write("3  |");
+Console.Write("Adi           |");
+Console.Write(Adi);
+Console.WriteLine("          |");
+
+Console.Write("4  |");
+Console.Write("Slamet        |");
+
+Console.WriteLine("              |");
+Console.Write("5  |");
+Console.Write("Candra        |");
+Console.Write(Joko);
+Console.WriteLine("            |");
+
+
+
 
 
 Console.ReadKey();
