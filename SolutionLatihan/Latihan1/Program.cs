@@ -12,7 +12,7 @@ Console.WriteLine(1 + 1 == 5 ? "jawaban ini benar" : "jawaban ini  salah");
 Console.WriteLine(true);
 Console.WriteLine(false);
 
-
+Console.WriteLine(DateTime.Now.ToString());
 
 
 
