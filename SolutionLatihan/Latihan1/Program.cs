@@ -58,6 +58,49 @@ Console.Write("Candra        |");
 Console.Write(Joko);
 Console.WriteLine("            |");
 
+//latihan 2
+
+string nama1 = "Jhone";
+string nama2 = "Shena";
+int umur = 30;
+
+
+
+Console.WriteLine(nama1);
+Console.WriteLine(nama1);
+
+Console.WriteLine(nama2);
+
+Console.WriteLine(nama1 + nama2);
+
+//merubah tipe data umur dari integer menjadi string
+Console.WriteLine("nama : " + nama1 + ", umurnya : " + umur.ToString());
+//cara lain untuk mengkonversi tipe data dengan convert
+Console.WriteLine("nama ; " + nama2 + "umur :" + Convert.ToString(umur));
+
+
+int angka1 = 3;
+int angka2 = 5;
+
+int hasil = angka1 + angka2;
+
+Console.WriteLine(hasil);
+Console.WriteLine(angka1 + angka2);
+
+double double1 = 1.8;
+double double2 = 2.2;
+
+double hasildouble = double1 + double2;
+
+Console.WriteLine(hasildouble);
+Console.Write(double1 + double2);
+
+Console.WriteLine("masukkan user name :");
+string userName = Console.ReadLine(); //untuk membaca Line yang user input
+Console.WriteLine("User Name adalah: " + userName); // menampilkan variabel userName
+
+Console.ReadKey();
+
 
 
 
