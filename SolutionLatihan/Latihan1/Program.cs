@@ -15,6 +15,8 @@ Console.WriteLine(false);
 Console.WriteLine(DateTime.Now.ToString());
 
 
+Console.WriteLine("test ini dari github");
+
 
 
 
