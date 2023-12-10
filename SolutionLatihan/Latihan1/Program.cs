@@ -23,6 +23,7 @@ Console.WriteLine("ok ada perubahan");
 //tes perubahan
 
 //penambahan koding
+//TUGAS LATIHAN 1
 
 Console.WriteLine();
 string nama = "Hendry Priyatno";
@@ -76,7 +77,7 @@ Console.WriteLine(nama1 + nama2);
 //merubah tipe data umur dari integer menjadi string
 Console.WriteLine("nama : " + nama1 + ", umurnya : " + umur.ToString());
 //cara lain untuk mengkonversi tipe data dengan convert
-Console.WriteLine("nama ; " + nama2 + "umur :" + Convert.ToString(umur));
+Console.WriteLine("nama ; " + nama2 + ", umur :" + Convert.ToString(umur));
 
 
 int angka1 = 3;
@@ -101,5 +102,26 @@ Console.WriteLine("User Name adalah: " + userName); // menampilkan variabel user
 
 Console.WriteLine("TES");
 Console.WriteLine();
+
+//TUGAS LATIHAN 2
+
+string Restoran = "Menu Restoran Maju Mundur";
+Console.WriteLine(Restoran);
+Console.WriteLine();
+string no1 = "Ayam Bakar";
+string no2 = "Nasi Liwet";
+string no3 = "Es Teh Manis";
+string no4 = "Kerupuk Olga";
+string no5 = "Es Jeruk";
+Console.WriteLine("1. Ayam Bakar");
+Console.WriteLine("2. Nasi Liwet");
+Console.WriteLine("3. Es Teh Manis");
+Console.WriteLine("4. Kerupuk Olga");
+Console.WriteLine("5. Es Jeruk");
+Console.WriteLine();
+Console.WriteLine("masukkan pilihan anda : ");
+string userNa = Console.ReadLine();
+Console.WriteLine("Anda memilih nomer " + userNa + " adalah " );
+
 
 Console.ReadKey();
