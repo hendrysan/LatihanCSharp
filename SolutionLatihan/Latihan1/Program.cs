@@ -123,5 +123,107 @@ Console.WriteLine("masukkan pilihan anda : ");
 string userNa = Console.ReadLine();
 Console.WriteLine("Anda memilih nomer " + userNa + " adalah " );
 
+//Deklarasikan data daftar menu
+string menu1 = " Ayam Bakar";
+string menu2 = " Nasi Liwet";
+string menu3 = " Es Teh Manis";
+string menu4 = " Kerupuk Olga";
+string menu5 = " Es Jeruk";
+
+
+// menampilkan data menu;
+string menu = @"Menu Restoran Maju Mundur";
+Console.WriteLine(menu);
+Console.WriteLine(menu1);
+Console.WriteLine(menu2);
+Console.WriteLine(menu3);
+Console.WriteLine(menu4);
+Console.WriteLine(menu5);
+
+Console.Write("Masukan pilihan anda : ");
+string pilihan = Console.ReadLine();
+
+// memberikan kondisi data yang di input user
+string keterangan = "menu tidak terdaftar";
+if (pilihan == "1")
+{
+    keterangan = menu1;
+}
+else if (pilihan == "2")
+{
+    keterangan = menu2;
+}
+else if (pilihan == "3")
+{
+    keterangan = menu3;
+}
+else if (pilihan == "4")
+{
+    keterangan = menu4;
+}
+else if (pilihan == "5")
+{
+    keterangan = menu5;
+}
+
+
+
+Console.WriteLine("Anda memilih nomor: " + pilihan + " adalah :" + keterangan);
+
+Console.WriteLine();
+Console.WriteLine("switch");
+
+int day = 8;
+switch (day)
+{
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+    case 2:
+        Console.WriteLine("Tuesday");
+        break;
+    case 3:
+        Console.WriteLine("Wednesday");
+        break;
+    case 4:
+        Console.WriteLine("Thursday");
+        break;
+    case 5:
+        Console.WriteLine("Friday");
+        break;
+    case 6:
+        Console.WriteLine("Saturday");
+        break;
+    case 7:
+        Console.WriteLine("Sunday");
+        break;
+    default:
+        Console.WriteLine("Day not found");
+        break;
+}
+// Outputs "Thursday" (day 4)
+
+int whileData = 0;
+while (whileData < 5)
+{
+    Console.WriteLine(whileData);
+    whileData++;
+}
+
+while (whileData < 5) ;
+
+Console.WriteLine();
+Console.WriteLine("For Loop");
+
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
+
+for (int i = 0; i <= 10; i = i + 2)
+{
+    Console.WriteLine(i);
+}
+
 
 Console.ReadKey();
