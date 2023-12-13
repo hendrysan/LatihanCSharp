@@ -225,5 +225,21 @@ for (int i = 0; i <= 10; i = i + 2)
     Console.WriteLine(i);
 }
 
+//TUGAS BANYAK BINTANG USER INPUT
 
+int user, j;
+Console.Write("Masukkan banyaknya bintang : ");
+user = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+
+for(int i = 1; i <= user; i++)
+{
+    for (j = 1; j <= i; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine();
 Console.ReadKey();
