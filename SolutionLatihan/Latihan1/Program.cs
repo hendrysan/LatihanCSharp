@@ -225,6 +225,8 @@ for (int i = 0; i <= 10; i = i + 2)
     Console.WriteLine(i);
 }
 
+Console.WriteLine();
+
 //TUGAS BANYAK BINTANG USER INPUT
 
 int user, j;
