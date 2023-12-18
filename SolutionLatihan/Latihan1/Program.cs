@@ -234,7 +234,7 @@ Console.Write("Masukkan banyaknya bintang : ");
 user = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 
-for(int i = 1; i <= user; i++)
+for (int i = 1; i <= user; i++)
 {
     for (j = 1; j <= i; j++)
     {
@@ -244,4 +244,109 @@ for(int i = 1; i <= user; i++)
 }
 
 Console.WriteLine();
+
+//BANYAKNYA BINTANG
+
+int pemilih, k;
+Console.Write("terbawah 3 bintang : ");
+pemilih = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+
+for (int i = 1; i < pemilih; i++)
+{
+    for (j = 1; j <= i; j++)
+    {
+        Console.Write("");
+    }
+    for (k = pemilih; k >= ((2 * i) - pemilih); k--)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine();
+
+//PIRAMIDA SEGITIGA SAMA KAKI
+
+int pemilih1;
+Console.Write("PIRAMIDA SEGITIGA SAMA KAKI : ");
+pemilih1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+
+for (int i = pemilih1; i > 0; i--)
+{
+    for (j = i; j > 0; j--)
+    {
+        Console.Write(" ");
+    }
+    for (j = pemilih1; j >= i; j--)
+    {
+        Console.Write("*");
+    }
+    for (j = pemilih1; j > i; j--)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine("");
+}
+
+Console.WriteLine();
+
+//PIRAMIDA TERBALIK SETENGAH
+
+//int pemilih2;
+Console.Write("Piramida Terbalik setengah : ");
+int user2;
+user2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+
+for (int i = user2; i >= 1; i--)
+{
+    for (j = 1; j <= i; j++)
+    {
+        Console.Write("* ");
+    }
+    //for (j = pemilih2; j >= i; j--)
+    //{
+    //    Console.Write("*");
+    //}
+    //for (j = pemilih2; j > i; j--)
+    //{
+    //    Console.Write("*");
+    //}
+    Console.WriteLine();
+}
+
+Console.WriteLine();
+
+//PIRAMIDA TERBALIK TES KODE
+
+
+Console.Write("PIRAMIDA TERBALIK : ");
+int user3;
+user3 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+
+for (int i = user3; i >= 1; i--)
+{
+    for (j = 1; j <= i; j++)
+    {
+        Console.Write("* ");
+    }
+    for (j = user3; j <= 1; j++)
+    {
+        Console.Write("* ");
+    }
+    //for (j = i; j >= 1; j++)
+    //{
+    //   Console.Write("* ");
+    //}
+    Console.WriteLine("");
+}
+
+Console.WriteLine();
+
 Console.ReadKey();
+
+Console.WriteLine();
